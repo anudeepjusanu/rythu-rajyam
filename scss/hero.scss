@@ -32,10 +32,10 @@
   &::after {
     width: 100%;
     height: 100%;
-    background: rgba(72, 52, 212, 0.95);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+    background: rgba(0, 185, 185, 0.95);
+    background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+    background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+    background: linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
     position: absolute;
     top: 0;
     left: 0;
@@ -107,11 +107,11 @@
   font-size: 40px;
   @include transform(translate(-50%, -50%));
   z-index: 10;
-  color: #4834d4;
+  color: #00b9b9;
 }
 
 .video-btn {
-  background-color: #4834d4;
+  background-color: #00b9b9;
   width: 70px;
   height: 70px;
   color: $white;
@@ -123,7 +123,7 @@
   font-size: 24px;
 
   &:hover {
-    background-color: #4834d4;
+    background-color: #00b9b9;
     color: $white;
   }
 }

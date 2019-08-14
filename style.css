@@ -51,11 +51,11 @@
 $heading: #303030; [Heading Color]
 $text: #707070; [Text Color]
 $bg-gray: #f2f4f5; [Gray Background]
-$primary: #4834d4; [Primary Color]
+$primary:#00b9b9; [Primary Color]
 $white: #ffffff; [White Color]
 $dark: #000; [Dark Color]
 $border: #7450fe; [Border Color]
-$hover: #4834d4; [Hover Color]
+$hover:#00b9b9; [Hover Color]
 $secondary: #222222; [Secondary Color]
 
 -----------------------------------------------
@@ -83,10 +83,10 @@ Body [Poppins', sans-serif]
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #4834d4;
-  background: -webkit-linear-gradient(to right, #4834d4, #341f97);
-  background: -webkit-linear-gradient(left, #4834d4, #341f97);
-  background: linear-gradient(to right, #4834d4, #341f97); }
+  background: #00b9b9;
+  background: -webkit-linear-gradient(to right,#00b9b9, #4bb3b3);
+  background: -webkit-linear-gradient(left,#00b9b9, #4bb3b3);
+  background: linear-gradient(to right,#00b9b9, #4bb3b3); }
 
 h1,
 h2,
@@ -132,10 +132,10 @@ ul {
   z-index: 1; }
 
 .bg-overlay:after {
-  background: rgba(72, 52, 212, 0.95);
-  background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-  background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-  background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+  background: rgba(0, 185, 185, 0.95);
+  background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+  background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+  background: linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
   position: absolute;
   content: "";
   height: 100%;
@@ -277,10 +277,10 @@ ul {
   z-index: 99999;
   top: 0;
   left: 0;
-  background: #4834d4;
-  background: -webkit-linear-gradient(to right, #4834d4, #341f97);
-  background: -webkit-linear-gradient(left, #4834d4, #341f97);
-  background: linear-gradient(to right, #4834d4, #341f97); }
+  background:#00b9b9;
+  background: -webkit-linear-gradient(to right,#00b9b9, #4bb3b3);
+  background: -webkit-linear-gradient(left,#00b9b9, #4bb3b3);
+  background: linear-gradient(to right,#00b9b9, #4bb3b3); }
   #preloader .preload-content {
     position: absolute;
     top: 50%;
@@ -518,7 +518,7 @@ ul {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    background-color: #4834d4;
+    background-color:#00b9b9;
     box-shadow: 0 3px 30px rgba(0, 0, 0, 0.15);
     border-bottom: none; }
 
@@ -541,12 +541,12 @@ ul {
     .classynav ul li a {
       color: #000; }
       .classynav ul li a:focus, .classynav ul li a:hover {
-        color: #4834d4; } }
+        color:#00b9b9; } }
   @media only screen and (max-width: 767px) {
     .classynav ul li a {
       color: #000; }
       .classynav ul li a:focus, .classynav ul li a:hover {
-        color: #4834d4; } }
+        color:#00b9b9; } }
 
 .classynav ul li.has-down > a::after,
 .classynav ul li.megamenu-item > a::after {
@@ -570,7 +570,7 @@ ul {
   .classynav ul li .dropdown li a:focus, .classynav ul li .dropdown li a:hover,
   .classynav ul li .megamenu-item li a:focus,
   .classynav ul li .megamenu-item li a:hover {
-    color: #4834d4; }
+    color:#00b9b9; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .classynav ul li .dropdown,
@@ -617,10 +617,10 @@ ul {
   .welcome_area::after {
     width: 100%;
     height: 100%;
-    background: rgba(72, 52, 212, 0.95);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+    background: rgba(0, 185, 185, 0.95);
+    background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+    background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+    background: linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
     position: absolute;
     top: 0;
     left: 0;
@@ -678,10 +678,10 @@ ul {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 10;
-  color: #4834d4; }
+  color:#00b9b9; }
 
 .video-btn {
-  background-color: #4834d4;
+  background-color:#00b9b9;
   width: 70px;
   height: 70px;
   color: #ffffff;
@@ -692,7 +692,7 @@ ul {
   min-width: 70px;
   font-size: 24px; }
   .video-btn:hover {
-    background-color: #4834d4;
+    background-color:#00b9b9;
     color: #ffffff; }
 
 /* 3.2 Breadcrumb CSS */
@@ -712,10 +712,10 @@ ul {
   .breadcumb-area::after {
     width: 100%;
     height: 100%;
-    background: rgba(72, 52, 212, 0.95);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+    background: rgba(0, 185, 185, 0.95);
+    background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+    background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+    background: linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
     position: absolute;
     top: 0;
     left: 0;
@@ -777,10 +777,10 @@ ul {
     font-size: 14px; }
     .reen-pagination .pagination .page-item .page-link:focus, .reen-pagination .pagination .page-item .page-link:hover {
       background-color: #ffffff;
-      color: #4834d4; }
+      color:#00b9b9; }
   .reen-pagination .pagination .page-item.active .page-link {
     background-color: #ffffff;
-    color: #4834d4;
+    color:#00b9b9;
     border-color: #ffffff; }
 
 /* 3.3 Blog CSS */
@@ -1193,10 +1193,10 @@ textarea:required {
   height: 100%;
   overflow: hidden;
   background: white;
-  background: rgba(72, 52, 212, 0.9);
-  background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
-  background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
-  background: linear-gradient(to right, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
+  background: rgba(0, 185, 185, 0.9);
+  background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
+  background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
+  background: linear-gradient(to right, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
   overflow: hidden; }
 
 .bubble {
@@ -1776,10 +1776,10 @@ textarea:required {
     right: 0;
     left: 0;
     content: '';
-    background: rgba(72, 52, 212, 0.9);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
+    background: rgba(0, 185, 185, 0.9);
+    background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
+    background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
+    background: linear-gradient(to right, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
     z-index: -1; }
 
 .single-mission {
@@ -1819,10 +1819,10 @@ textarea:required {
     right: 0;
     left: 0;
     content: '';
-    background: rgba(72, 52, 212, 0.9);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.9), rgba(52, 31, 151, 0.9));
+    background: rgba(0, 185, 185, 0.9);
+    background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
+    background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
+    background: linear-gradient(to right, rgba(0, 185, 185, 0.9), rgba(91, 186, 186, 0.9));
     z-index: -1; }
 
 .cta-content h2 {
@@ -1868,7 +1868,7 @@ textarea:required {
   line-height: 40px;
   opacity: 1;
   padding-right: 0;
-  background-color: #4834d4; }
+  background-color:#00b9b9; }
 
 .mfp-iframe-holder .mfp-close {
   top: 0; }
@@ -1898,7 +1898,7 @@ textarea:required {
     color: #ffffff;
     padding: 6px 15px;
     border-radius: 35px;
-    background-color: #4834d4; }
+    background-color:#00b9b9; }
   .mfp-bottom-bar .mfp-counter {
     position: relative;
     top: 0;
@@ -1908,7 +1908,7 @@ textarea:required {
     line-height: 1;
     padding: 6px 15px;
     border-radius: 35px;
-    background-color: #4834d4; }
+    background-color:#00b9b9; }
 
 /* 3.8.4 Gallery Area CSS */
 .single_gallery_item {
@@ -1926,7 +1926,7 @@ textarea:required {
   top: 0;
   left: 15px;
   z-index: 10;
-  background-color: rgba(72, 52, 212, 0.8);
+  background-color: rgba(0, 185, 185, 0.8);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -2143,7 +2143,7 @@ textarea:required {
     display: inline-block;
     padding-right: 10px; }
     .single-team-member .team-social-icon a:focus, .single-team-member .team-social-icon a:hover {
-      color: #4834d4; }
+      color:#00b9b9; }
 
 /* 3.8.9 Timeline Area CSS */
 .timelineBox {
@@ -2299,10 +2299,10 @@ textarea:required {
   .welcome_single_slider::after {
     width: 100%;
     height: 100%;
-    background: rgba(72, 52, 212, 0.8);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.8), rgba(52, 31, 151, 0.8));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.8), rgba(52, 31, 151, 0.8));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.8), rgba(52, 31, 151, 0.8));
+    background: rgba(0, 185, 185, 0.8);
+    background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.8), rgba(91, 186, 186, 0.8));
+    background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.8), rgba(91, 186, 186, 0.8));
+    background: linear-gradient(to right, rgba(0, 185, 185, 0.8), rgba(91, 186, 186, 0.8));
     position: absolute;
     top: 0;
     left: 0;

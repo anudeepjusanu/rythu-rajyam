@@ -6,10 +6,10 @@
 
 body {
   font-family: $fonts;
-  background: #4834d4;
-  background: -webkit-linear-gradient(to right, #4834d4, #341f97);
-  background: -webkit-linear-gradient(left, #4834d4, #341f97);
-  background: linear-gradient(to right, #4834d4, #341f97);
+  background: #00b9b9;
+  background: -webkit-linear-gradient(to right, #00b9b9, #4bb3b3);
+  background: -webkit-linear-gradient(left, #00b9b9, #4bb3b3);
+  background: linear-gradient(to right, #00b9b9, #4bb3b3);
 }
 
 h1,
@@ -65,10 +65,10 @@ ul {
 }
 
 .bg-overlay:after {
-  background: rgba(72, 52, 212, 0.95);
-  background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-  background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-  background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+  background: rgba(0, 185, 185, 0.95);
+  background: -webkit-linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+  background: -webkit-linear-gradient(left, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
+  background: linear-gradient(to right, rgba(0, 185, 185, 0.95), rgba(91, 186, 186, 0.95));
   position: absolute;
   content: "";
   height: 100%;
