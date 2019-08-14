@@ -34,7 +34,7 @@
         <nav class="classy-navbar justify-content-between" id="reenNav">
 
           <!-- Logo -->
-          <a class="nav-brand" href="index.html"><img src="img/core-img/logo.jpeg" alt=""></a>
+          <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
 
           <!-- Navbar Toggler -->
           <div class="classy-navbar-toggler">
@@ -146,7 +146,7 @@
           <div class="section-heading">
             <div class="admin_text">
               <h5>Correspondent and Founders:</h5>
-              <div style="color: #ffffff"><b>Srinivas</b> was born at Ujpuram EG Dist (AP) on 6th April 1974 is a son
+              <div style="color: #ffffff"><b>V Srinivas</b> was born at Ujpuram EG Dist (AP) on 6th April 1974 is a son
                 of V Venkata Rao who is a
                 proud
                 farmer. He studied upto intermediate MPC in Kakinada. Later he joined Indian Navy as a sailor on 19th
@@ -155,9 +155,13 @@
               <div style="color: #ffffff">After 11 years he decided to start Rythu Rajyam (a charitable trust for below
                 poverty line, ex
                 servicemen and farmers) with small amount of investment and small teams </div>
-              <p></p>
+              <br />
+              <br />
               <div style="color: #ffffff">
-
+                <b>V Saroja Devi</b> was born at pithapuram EG Dist (AP) on 02nd December 1977 is a daughter of Sri
+                Akula Surya Narayana. She studied upto graduation(Bcom) in Kakinada.She is married to Srinivas on 22nd
+                Feb 2000. She decided to Join hands with her husband as a correspondent and founder of Rythu
+                Rajyam(charitable trust)
               </div>
             </div>
           </div>
@@ -568,7 +572,9 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8">
             <div class="contact_form">
-              <form action="mail.php" method="post" id="main_contact_form" novalidate>
+              <form style="color:#ffffff" id="main_contact_form" name="main_contact_form" action="https://docs.google.com/forms/d/e/1FAIpQLScKCvY0iIShj_3x2G37FD6CAlsbM-1SZ_Jf9P_i8hbaVsODZA/formResponse?"
+                target="
+                hidden_iframe" onsubmit="submitted=true;">
                 <div class="row">
                   <div class="col-12">
                     <div id="success_fail_info"></div>
@@ -576,7 +582,7 @@
 
                   <div class="col-12 col-md-6">
                     <div class="group wow fadeInUp" data-wow-delay="0.2s">
-                      <input type="text" name="name" id="name" required>
+                      <input type="text" name="entry.1969998447" id="entry.1969998447" required>
                       <span class="highlight"></span>
                       <span class="bar"></span>
                       <label>Name</label>
@@ -584,7 +590,7 @@
                   </div>
                   <div class="col-12 col-md-6">
                     <div class="group wow fadeInUp" data-wow-delay="0.3s">
-                      <input type="text" name="email" id="email" required>
+                      <input type="text" name="entry.394748272" id="entry.394748272" required>
                       <span class="highlight"></span>
                       <span class="bar"></span>
                       <label>Email</label>
@@ -592,7 +598,7 @@
                   </div>
                   <div class="col-12">
                     <div class="group wow fadeInUp" data-wow-delay="0.4s">
-                      <input type="text" name="subject" id="subject" required>
+                      <input type="text" name="entry.1048447296" id="entry.1048447296" required>
                       <span class="highlight"></span>
                       <span class="bar"></span>
                       <label>Subject</label>
@@ -600,7 +606,7 @@
                   </div>
                   <div class="col-12">
                     <div class="group wow fadeInUp" data-wow-delay="0.5s">
-                      <textarea name="message" id="message" required></textarea>
+                      <textarea name="entry.1519940705" id="entry.1519940705" required></textarea>
                       <span class="highlight"></span>
                       <span class="bar"></span>
                       <label>Message</label>
@@ -611,6 +617,7 @@
                   </div>
                 </div>
               </form>
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
             </div>
           </div>
         </div>
@@ -674,6 +681,12 @@
   <script src="js/reen.bundle.js"></script>
   <!-- Active js -->
   <script src="js/default-assets/active.js"></script>
+  <script type="text/javascript">
+    $('#main_contact_form').on('submit', function (e) {
+      $('#main_contact_form *').fadeOut(2000);
+      $('#main_contact_form').prepend('Your submission has been processed...');
+    });
+  </script>
 
 </body>
 
