@@ -295,7 +295,7 @@
           <!-- Contact Form -->
           <div class="col-12 col-md-12 col-lg-12">
             <div class="contact_form">
-              <form style="color:#ffffff" id="main_contact_form" name="main_contact_form" action="https://docs.google.com/forms/d/e/1FAIpQLSeEIN3g3xXF9dGOar8xfDPrk8LCCkt6PxWx1koSEDFW-Ol8tA/formResponse?"
+              <form style="color:#ffffff" id="farmer_contact_form" name="farmer_contact_form" action="https://docs.google.com/forms/d/e/1FAIpQLSeEIN3g3xXF9dGOar8xfDPrk8LCCkt6PxWx1koSEDFW-Ol8tA/formResponse?"
                 target="
                   hidden_iframe" onsubmit="submitted=true;">
                 <div class="row">
@@ -365,9 +365,7 @@
             <!-- Section Heading -->
             <div class="section-heading">
               <h2 class="wow fadeInUp" data-wow-delay="0.3s">Frequently Asked Questions</h2>
-              <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed
-                quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+              <p class="wow fadeInUp" data-wow-delay="0.4s">Everything you need to know about Rythu Rajyam</p>
             </div>
 
             <div class="reen-faq-area mb-100">
@@ -375,29 +373,18 @@
                 <!-- Single FAQ Area -->
                 <dt class="wave wow fadeInUp" data-wow-delay="0.2s">How can I as a farmer use it?</dt>
                 <dd class="wow fadeInUp" data-wow-delay="0.3s">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur
-                    ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti
-                    cupiditate
-                    ipsum, dolorum voluptatum esse
-                    error?</p>
+                  <p>Please reach out to us on our contact number(+91 9491752255) we will provide you the required
+                    details</p>
                 </dd>
                 <!-- Single FAQ Area -->
                 <dt class="wave wow fadeInUp" data-wow-delay="0.3s">How can I get in touch with you</dt>
                 <dd>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur
-                    ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti
-                    cupiditate
-                    ipsum, dolorum voluptatum esse
-                    error?</p>
+                  <p>Please use the contact us form or dial us directly on our mobile (+91 9491752255)</p>
                 </dd>
                 <!-- Single FAQ Area -->
                 <dt class="wave wow fadeInUp" data-wow-delay="0.4s">What is the eligibility criteria</dt>
                 <dd>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur
-                    ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti
-                    cupiditate
-                    ipsum, dolorum voluptatum esse
-                    error?</p>
+                  <p>Please Register as a farmer we will reach out to you with the appropriate details</p>
                 </dd>
                 <!-- Single FAQ Area -->
               </dl>
@@ -636,6 +623,11 @@
         $('#main_contact_form *').fadeOut(2000);
         $('#main_contact_form').prepend('Your submission has been processed...');
       });
+      $('#farmer_contact_form').on('submit', function (e) {
+        $('#farmer_contact_form *').fadeOut(2000);
+        $('#farmer_contact_form').prepend('Registered Successfully we will get back to you...');
+      });
+
     </script>
 
 </body>
