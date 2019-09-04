@@ -1,1 +1,0 @@
-# rythu-rajyam
