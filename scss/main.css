@@ -7772,3 +7772,43 @@ body #login-reg .btn-link-1 {
 	margin: 5px 0px;
 }
 }
+
+.contact-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 40px;
+    background-color: #fff;
+    border: 1px solid #eaf0f6;
+}
+
+.contact-box-item.logo {
+    height: 50px;
+    width: 50px;
+}
+.contact-box-item {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.contact-box-item.title {
+    font-weight: 600;
+    color: #33475b;
+}
+.contact-box-item {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.contact-box-item {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.contact-box-item.link {
+    position: relative;
+    font-weight: 600;
+}
+.contact-box-item {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
