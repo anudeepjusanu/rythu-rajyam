@@ -40,7 +40,7 @@ b, strong {
 	font-weight: bold;
 }
 dfn {
-	font-style: italic;
+	font-style: normal;
 }
 h1 {
 	font-size: 2em;
@@ -5876,7 +5876,7 @@ body .section-heading h6, body #features h6, body #about h6, body #process h6, b
 	margin-top: 0px;
 }
 body .section-heading p.subheading, body #features p.subheading, body #about p.subheading, body #process p.subheading, body #testimonial p.subheading, body #about-page-section-3 p.subheading, body #skills p.subheading, body #team-member p.subheading, body #top_banner p.subheading, body #portfolio p.subheading, body #faq p.subheading, body #contact p.subheading, body #contact-page p.subheading, body #features-page .subsection1 p.subheading, body #features-page .subsection2 p.subheading, body #features-page .subsection3 .right-section p.subheading, body #features-page .subsection3 .left-section p.subheading, body #features-page .subsection4 p.subheading, body #login-reg p.subheading {
-	font-style: italic;
+	font-style: normal;
 	margin-bottom: 40px;
 	font-size: 16px;
 	line-height: 30px;
@@ -6332,7 +6332,7 @@ body #about .about-list h3, body #about .about-list .h3 {
 	font-size: 26px;
 }
 body #about p.subheading {
-	font-style: italic;
+	font-style: normal;
 	width: 100%;
 }
 @media screen and (max-width: 640px) {
